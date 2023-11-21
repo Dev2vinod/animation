@@ -1,0 +1,47 @@
+p{
+    text-align: center;
+    
+}
+
+ .con{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% ;
+ }
+
+ p{
+    font-size: 64px;
+    line-height: 1.6;
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+ }
+ span{
+    color: orange;
+    font-weight: bold;
+    max-width: 750px;
+position: relative ;
+ }
+ 
+ span::after{
+ 
+    content: "\2008";
+    border-left: 8px solid orange;
+    width: 100%;
+    display: inline-block;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.4s infinite;
+
+
+ }
+
+  @keyframes blinking{
+   to{
+     
+   }
+
+  }
